@@ -49,7 +49,6 @@ for i, k in enumerate(neighbors):
     test_acc[i] = Knn_model.score(x_test, y_test)
     
 #------show in x&y
-# -------
 plt.plot(neighbors, train_acc, label='Train Accuracy')
 plt.plot(neighbors, test_acc, label='Test Accuracy')
 plt.legend()
